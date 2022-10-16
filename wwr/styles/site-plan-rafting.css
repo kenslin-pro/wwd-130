@@ -2,29 +2,28 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima:wght@500&family=Bitter:ital,wght@1,700&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=New+Rocker&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #ffc8dd   ;
-  --secondary-color: #ff77ff ;
-  --accent1-color: #bde0fe;
+  --primary-color: #fa9fc7   ;
+  --secondary-color: #7579e7 ;
+  --accent1-color: #b7b9f3;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Bitter";
-  --paragraph-font: Arima, Helvetica, sans-serif;
+  --heading-font: "New Rocker";
+  --paragraph-font: Alkalami, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #4d0303;  /* headlines on a white background */ 
-  --headline-color-on-color: #ce690b; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #d41072; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: rgb(28, 80, 28); /* paragraph text on a colored background */ 
-  --paragraph-background-color: #430a64  ;
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: 4cd3c2; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #7579e7; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #fa9fc7  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: rgb(211, 12, 12);
+  --nav-background-color: #fa9fc7;
+  --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
 
