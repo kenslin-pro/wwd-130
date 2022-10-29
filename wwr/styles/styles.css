@@ -3,6 +3,8 @@
 
 body {
   background-color: #b2d1eb; 
+    font-family: Alkalami;
+    font-size: 22px;
      margin: 0;
     padding: 0;
 }
@@ -17,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #314f7e;
   padding: 10px;
   text-align: center;
+}
+
+h2 {
+  margin: 0;
 }
 
 p {
@@ -83,7 +89,11 @@ nav a:hover{
   text-align: center;
    border-radius: 5px;
   text-decoration: none;
-    padding: 15px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 18px;
+
 }
 .book:hover, .join:hover{
   background-color: #314f7e;
@@ -125,7 +135,8 @@ background-color:rgba(110, 160, 252, 0.7);
 
 }
 
-
+.rivers-card, .camping-card, .rapids-card { margin: 200px 0;
+}
 
 .msg{
   background-color: rgb(116, 178, 248); 
