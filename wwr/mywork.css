@@ -1,0 +1,14 @@
+.general{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+  padding-top: 100px;
+  padding-left: 100px;
+
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+  width: 400px;
+  height: 400px;
+  display:inline-block
+}
